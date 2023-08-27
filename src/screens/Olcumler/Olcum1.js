@@ -98,7 +98,7 @@ const Olcum1 = () => {
         //   sayac2: item.sayac2,
         //   sayac3: item.sayac3,
         // }));
-        const startIndex = Math.max(result.data.length - 4520, 0);
+        const startIndex = Math.max(result.data.length - 5082, 0);
         setData(result.data.slice(startIndex));
       } catch (error) {
         console.log(error);

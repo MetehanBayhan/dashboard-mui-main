@@ -444,16 +444,17 @@ const Olcum1 = () => {
                     <AreaChart
                       width={1000}
                       height={500}
-                      data={data.sayac1}
+                      data={data}
                     >
-                      <XAxis dataKey="tarih" interval={180} angle={-45} />
+                      <XAxis dataKey="eklenme_tarihi" interval={180} angle={-45} />
                       <YAxis />
                       <CartesianGrid strokeDasharray="4 4" />
                       <Tooltip />
                       <Legend />
                       <Area
                         type="monotone"
-                        dataKey="Sayaç 1"
+                        dataKey="sayac1"
+                        name="Sayaç 1"
                         stroke="#ffc658"
                         fill="#ffc658"
                       />
@@ -470,9 +471,9 @@ const Olcum1 = () => {
                     <AreaChart
                       width={1000}
                       height={500}
-                      data={data.sayac2}
+                      data={data}
                     >
-                      <XAxis dataKey="tarih" interval={180} angle={-45} />
+                      <XAxis dataKey="eklenme_tarihi" interval={180} angle={-45} />
                       <YAxis />
                       <CartesianGrid strokeDasharray="4 4" />
                       <Tooltip />
@@ -480,7 +481,8 @@ const Olcum1 = () => {
                       <Area
                         width="100%"
                         type="monotone"
-                        dataKey="Sayaç 2"
+                        dataKey="sayac2"
+                        name="Sayaç 2"
                         stroke="#ffc658"
                         fill="#ffc658"
                       />
@@ -497,16 +499,17 @@ const Olcum1 = () => {
                     <AreaChart
                       width={1000}
                       height={500}
-                      data={data.sayac3}
+                      data={data}
                     >
-                      <XAxis dataKey="tarih" interval={180} angle={-45} />
+                      <XAxis dataKey="eklenme_tarihi" interval={180} angle={-45} />
                       <YAxis />
                       <CartesianGrid strokeDasharray="4 4" />
                       <Tooltip />
                       <Legend />
                       <Area
                         type="monotone"
-                        dataKey="Sayaç 3"
+                        dataKey="sayac3"
+                        name="Sayaç 3"
                         pathLength={0.5}
                         stroke="#ffc658"
                         fill="#ffc658"
